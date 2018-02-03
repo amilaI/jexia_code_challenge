@@ -52,7 +52,7 @@ public final class Constants {
         String FORMAT_1 = "0xF8D";
         String FORMAT_2 = "0xF8E";
         String SPACE_FORMAT = "0x0020";
-        String SPACE = "  ";
+        String SPACE = " ";
         int HEXA_VALUE = 16;
     }
 
