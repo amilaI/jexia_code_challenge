@@ -35,8 +35,8 @@ Google gson serialization/deserialization library to convert Java Objects into J
 Apache commons-lang3 library as an advanced Java util.
 
 
-Build Project (Project is already built with dependencies.
-----------------------------------------------------------
+How to build the project (Project is already built with dependencies.)
+----------------------------------------------------------------------
 cd code
 
 mvn clean install package
@@ -52,6 +52,7 @@ Welcome to Jexia Code Challenge | Back-end Start Trek Test
 Processing... Please Wait! :) 
 
 0xF8DB  0xF8E8  0xF8DD  0xF8E3  0xF8D0    0x0020  0xF8E5  0xF8D6  0xF8E5  0xF8E1  0xF8D0
+
 Yeah! Result found in 6 seconds. :) 
 
 Name : Nyota Uhura
@@ -66,6 +67,7 @@ Welcome to Jexia Code Challenge | Back-end Start Trek Test
 Processing... Please Wait! :) 
 
 0xF8D1  0xF8D0  0xF8E1  0xF8D4  0xF8D7  0xF8D9    0x0020  0xF8D0  0xF8DB  0xF8E3  0xF8DD  0xF8E2 
+
 Yeah! Result found in 4 seconds. :) 
 
 Name : Bareil Antos
