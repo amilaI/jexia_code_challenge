@@ -13,6 +13,7 @@ Run Project
 ./jexia_app.sh your_query
 
 Example :-
+
 ./jexia_app.sh Spock
 
 
@@ -37,13 +38,18 @@ Apache commons-lang3 library as an advanced Java util.
 Build Project (Project is already built with dependencies.
 ----------------------------------------------------------
 cd code
+
 mvn clean install package
 
 
 Program Arguments Samples
 -------------------------
 Spock
+
 Amila
+
 Terrina
+
 Templeton
+
 Uhura
