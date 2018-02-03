@@ -37,9 +37,37 @@ mvn clean install package
 
 
 Program Arguments Samples
+*************************
+
+./jexia_app.sh Spock
+
+Name : Spock
+Species : [Human, Vulcan]
+
 -------------------------
-Spock
-Amila
-Terrina
-Templeton
-Uhura
+./jexia_app.sh Nyota Uhura
+
+Name : Nyota Uhura
+Species : [Human]
+
+-------------------------
+./jexia_app.sh Amila
+
+No result found for your query Amila
+
+-------------------------
+./jexia_app.sh Terrina
+
+Sorry! No species found for Terrina
+
+-------------------------
+./jexia_app.sh Leonard
+
+Name : Leonard McCoy
+Species : [Terran]
+
+-------------------------
+./jexia_app.sh Bareil Antos
+
+Name : Bareil Antos
+Species : [Bajoran]

@@ -1,7 +1,5 @@
 package com.jexia.app.util;
 
-import com.jexia.app.model.CharacterSearchDTO;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -55,7 +53,7 @@ public class RestClientUtil {
 
             // If HTTP response is not OK (Code : 200) then output error message.
             if (httpURLConnection.getResponseCode() != HttpURLConnection.HTTP_OK) {
-                System.out.println(Constants.ErrorMessages.ERROR_IN_WS_CALL_1 + httpURLConnection.getResponseCode() + Constants.ErrorMessages.RESPONSE_1 + httpURLConnection.getContent());
+                System.out.println(Constants.Messages.ERROR_IN_WS_CALL_1 + httpURLConnection.getResponseCode() + Constants.Messages.RESPONSE_1 + httpURLConnection.getContent());
 
             }
 
@@ -64,11 +62,11 @@ public class RestClientUtil {
 
         } catch (MalformedURLException e) {
             // A MalformedURLException has occurred.
-            System.out.println(Constants.ErrorMessages.ERROR_IN_WS_CALL_2 + e.getMessage());
+            System.out.println(Constants.Messages.ERROR_IN_WS_CALL_2 + e.getMessage());
 
         } catch (IOException e) {
             // A IOException has occurred.
-            System.out.println(Constants.ErrorMessages.ERROR_IN_WS_CALL_2 + e.getMessage());
+            System.out.println(Constants.Messages.ERROR_IN_WS_CALL_2 + e.getMessage());
 
         }
 

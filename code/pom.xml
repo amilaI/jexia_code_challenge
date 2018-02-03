@@ -30,7 +30,7 @@
 
     <build>
         <plugins>
-
+            <!-- Plugin to package with java dependencies -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>

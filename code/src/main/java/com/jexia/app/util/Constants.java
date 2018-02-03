@@ -12,13 +12,14 @@ public final class Constants {
 
     public interface App {
         String APP_NAME = "Welcome to Jexia Code Challenge | Back-end Start Trek Test";
-        String STAR_LINES = "***********************************************************";
+        String STAR_LINES = "**********************************************************";
+        String PROCESSING_TEXT = "\nProcessing... Please Wait! :) \n";
     }
 
     public interface Stapi {
         String STAPI_HOST = "http://stapi.co/api/v1/rest/";
         String ROUTE_CHARACTER_SEARCH = "character/search";
-        String ROUTE_SINGLE_CHARACTER = "character";
+        String ROUTE_SINGLE_CHARACTER = "character?uid=";
     }
 
     public interface HttpMethods {
@@ -33,13 +34,26 @@ public final class Constants {
         int INPUT_BUFFER_SIZE = 8;
     }
 
-    public interface ErrorMessages {
+    public interface Messages {
         String ERROR_IN_WS_CALL_1 = "Oh Snap! Failed to retrieve data from STAPI. HTTP response code: ";
         String ERROR_IN_WS_CALL_2 = "Oh Snap! An error occurred when calling the STAPI: Message: ";
         String RESPONSE_1 = ". Response Message: ";
-        String NO_RESULTS_FOUND = "No result found for your query!";
-        String NO_SPECIES_FOUND = "Sorry! No species found for ";
+        String NO_RESULTS_FOUND = "\nNo result found for your query ";
+        String NO_SPECIES_FOUND = "\nSorry! No species found for ";
         String NO_INPUT_DATA = "Please enter a name as input query. Thanks. ";
+        String RESULT_FOUND= "\nYeah! Result found in ";
+        String SECONDS_TEXT = " seconds. :) \n";
+        String NAME = "Name : ";
+        String SPECIES = "Species : ";
+    }
+
+    public interface KlingonAlphabet {
+        String[] ALPHABET_pIqaD = {"a", "b", "ch", "D", "e", "gh", "H", "I", "j", "l", "m", "n", "ng", "o", "p", "q", "Q", "r", "S", "t", "tlh", "u", "v", "w", "y", "'"};
+        String FORMAT_1 = "0xF8D";
+        String FORMAT_2 = "0xF8E";
+        String SPACE_FORMAT = "0x0020";
+        String SPACE = "  ";
+        int HEXA_VALUE = 16;
     }
 
 
