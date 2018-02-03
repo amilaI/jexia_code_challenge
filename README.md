@@ -10,13 +10,14 @@ The task is to translate a name written in English to Klingon and find out its s
 
 Run Project
 -----------
-./jexia_app.sh <Input Argument>
+./jexia_app.sh your_query
+
 Example :-
 ./jexia_app.sh Spock
 
 
 Technical Essentials
-********************
+--------------------
 
 Programming Language used to solve this problem
 -----------------------------------------------
@@ -25,8 +26,11 @@ Java
 Other libraries used
 --------------------
 Apache Maven for dependency management (apache-maven-3.3.9)
+
 Java 8 (1.8.0_77)
+
 Google gson serialization/deserialization library to convert Java Objects into JSON and back (gson-2.8.2)
+
 Apache commons-lang3 library as an advanced Java util.
 
 
