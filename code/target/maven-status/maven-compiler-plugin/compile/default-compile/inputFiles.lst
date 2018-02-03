@@ -1,7 +1,9 @@
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/Application.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/util/RestClientUtil.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/model/CharacterSearchDTO.java
+/home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/facade/KlingonProcessor.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/model/SingleCharacterRequestDTO.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/model/CharacterDTO.java
+/home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/facade/impl/KlingonProcessorImpl.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/util/Constants.java
 /home/amilai/jexia/jexia_code_challenge/code/src/main/java/com/jexia/app/model/CharacterSpeciesDTO.java
