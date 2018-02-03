@@ -2,6 +2,7 @@
 ***********************************************
 
 Author: Amila Iddamalgoda, Colombo, Sri Lanka
+Email: amila922@gmail.com
 *********************************************
 
 Task Brief Overview
@@ -15,7 +16,6 @@ Run Project
 Example :-
 
 ./jexia_app.sh Spock
-
 
 Technical Essentials
 --------------------
@@ -43,7 +43,7 @@ mvn clean install package
 
 
 Program Arguments Samples
-*************************
+-------------------------
 
 amilai@amilai-Latitude-E6440:~/jexia/jexia_code_challenge$ ./jexia_app.sh Nyota Uhura
 
@@ -70,7 +70,3 @@ Yeah! Result found in 4 seconds. :)
 
 Name : Bareil Antos
 Species : [Bajoran]
-
-
-
-
